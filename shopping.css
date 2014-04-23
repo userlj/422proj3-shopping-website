@@ -1,0 +1,63 @@
+DIV.table {display:table;}
+FORM.tr{display:table-row;}
+SPAN.td{display:table-cell;}
+
+#wrapper {width: 950px;margin: 0 auto;}
+
+#content {min-height: 420px;}
+
+#content .article {padding-top: 28px; background-color:aliceblue;}
+
+#footer {
+	color: #999;
+	padding-top: 6px;
+	margin: 40px 0 20px 0;
+	overflow: hidden;
+	zoom: 1;
+	border-top: 1px dashed #ddd;
+}
+
+.heading{
+	font-family:verdana;
+	padding:20px;
+	border-radius:20px;
+	border:10px solid #B0C4DE;
+	background-color:lightblue;
+	text-align:center;
+	color:#F0F8FF;
+	font-size:30;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#button1 {
+	border:1px #333 solid;   
+	padding:8px;
+	color:#F0F8FF;
+	background-color:lightblue;
+	-webkit-border-radius:40px;
+	-moz-border-radius:24px;
+ 	border:8px solid #B0C4DE;
+}
+
+.fleft {float: left;}
+
+.fright {float: right;}
+
+a.link {color: #37a;text-decoration: none;}
+
+img.nail{width:50px;height:50px;}
+
+input.add{width:120px;}
+
+input.id{width:30px;}
+
+input.desc{width:180px;}
+
+input.cat{width:50px;}
+
+input.date{width:70px;}
+
+input.cart{width:100px;height:50px;}
+
+table.cart, td.cart, th.cart{border:1px solid green;}
+th.cart{background-color:green;color:white;}
